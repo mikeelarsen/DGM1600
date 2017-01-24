@@ -1,0 +1,11 @@
+using UnityEngine;
+
+public class changeColor : MonoBehaviour {
+  void Update () {
+    if(Input.GetKeyDown(KeyCode.R)) {
+      GetComponent<Renderer>().material.color = Color.red;
+    }
+    if(Input.GetKeyDown(KeyCode.G)) {
+      GetComponenet<Renderer>().material.color = Color.green;
+    }
+  }
