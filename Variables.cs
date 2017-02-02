@@ -24,8 +24,6 @@ public class Variables : MonoBehaviour {
 			System.Console.WriteLine (exampleString);
 			System.Console.WriteLine (exampleDouble);
 			System.Console.WriteLine (exampleFloat);
-
-			myVariable = "this is my variable now";
 		}
 	
 	}
